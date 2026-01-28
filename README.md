@@ -132,6 +132,15 @@ Place image here:
 
 <img width="831" height="973" alt="8" src="https://github.com/user-attachments/assets/236912cc-2cce-432d-97cc-4de8201364e1" />
 
+<img width="1633" height="683" alt="Screenshot 2026-01-28 130205" src="https://github.com/user-attachments/assets/4a56c12e-2fa7-4ccd-8fe8-3d04fed6eaaf" />
+
+<img width="1557" height="676" alt="Screenshot 2026-01-28 130211" src="https://github.com/user-attachments/assets/d55cb616-5f74-44ba-b76b-99bd45ee6f25" />
+
+<img width="1535" height="586" alt="Screenshot 2026-01-28 130217" src="https://github.com/user-attachments/assets/a4cf201a-5ad3-4278-b4d4-1288e9ff315d" />
+
+<img width="1563" height="693" alt="Screenshot 2026-01-28 130222" src="https://github.com/user-attachments/assets/4097ac91-3ba8-4645-9762-93ca90896124" />
+
+
 <img width="798" height="847" alt="9" src="https://github.com/user-attachments/assets/6554cc06-89e6-4211-8042-492583f2c0ab" />
 
 
