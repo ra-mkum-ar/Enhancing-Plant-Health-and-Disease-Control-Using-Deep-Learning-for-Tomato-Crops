@@ -77,9 +77,9 @@ The application allows users to:
 
 ### 🔹 Home Page
 
-```
+
 <img width="1869" height="869" alt="1" src="https://github.com/user-attachments/assets/e507f926-ab12-471e-9ecd-9aebb63bf7d6" />
-```
+
 
 Shows the landing interface introducing the system and its purpose.
 
@@ -87,11 +87,8 @@ Shows the landing interface introducing the system and its purpose.
 
 ### 🔹 Features Section
 
-```
-
 <img width="1865" height="883" alt="2" src="https://github.com/user-attachments/assets/8cc2cbc5-2827-4374-8a09-a94ae7d3a0f5" />
 
-```
 
 Displays key system capabilities:
 
@@ -103,10 +100,7 @@ Displays key system capabilities:
 
 ### 🔹 User Dashboard
 
-```
 <img width="1923" height="896" alt="3" src="https://github.com/user-attachments/assets/021d8280-3040-49b0-b2ed-1d6a0c3d828f" />
-```
-
 
 Allows users to:
 
@@ -118,9 +112,8 @@ Allows users to:
 
 ### 🔹 Scan History
 
-```
+
 <img width="1923" height="829" alt="4" src="https://github.com/user-attachments/assets/e8a99ac5-7822-472b-8473-1ed2d643b31d" />
-```
 
 Shows previous scans with:
 
@@ -135,13 +128,13 @@ Shows previous scans with:
 
 Place image here:
 
-```
+
 
 <img width="831" height="973" alt="8" src="https://github.com/user-attachments/assets/236912cc-2cce-432d-97cc-4de8201364e1" />
 
 <img width="798" height="847" alt="9" src="https://github.com/user-attachments/assets/6554cc06-89e6-4211-8042-492583f2c0ab" />
 
-```
+
 
 Contains detailed information about common tomato diseases:
 
@@ -165,9 +158,9 @@ Each disease includes:
 
 Place image here:
 
-```
+
 <img width="1923" height="918" alt="7" src="https://github.com/user-attachments/assets/643671cd-8b4f-41de-a3e2-a169016fb328" />
-```
+
 
 
 Displays:
