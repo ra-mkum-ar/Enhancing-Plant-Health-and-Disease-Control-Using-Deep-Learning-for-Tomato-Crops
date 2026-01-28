@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-28T05:44:47.548124",
+  "total_tests": 10,
+  "passed_tests": 10,
+  "success_rate": "100.0%",
+  "test_details": [
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "User Registration for Login Test",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Current User",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Invalid Login Test",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Diseases Library",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Diseases Structure Validation",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Scan with AI Analysis",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Specific Scan",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Scan History",
+      "success": true,
+      "details": ""
+    }
+  ]
+}
