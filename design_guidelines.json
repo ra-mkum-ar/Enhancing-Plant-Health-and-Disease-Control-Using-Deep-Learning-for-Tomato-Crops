@@ -1,0 +1,174 @@
+{
+  "identity": {
+    "name": "E1",
+    "archetype": "Clinical Botany",
+    "principles": [
+      "Fusion: Agriculture x Medical Interface",
+      "Emotion: Trust, Growth, Precision",
+      "Content: Data-dense but breathable",
+      "Contrast: Organic curves vs. Technical grids"
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Outfit, sans-serif",
+      "body": "Manrope, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap');",
+      "@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');"
+    ],
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed",
+      "caption": "text-xs uppercase tracking-widest font-semibold text-muted-foreground"
+    }
+  },
+  "colors": {
+    "palette_name": "Organic Precision",
+    "theme": "light",
+    "variables": {
+      "light": {
+        "--background": "60 20% 97%",
+        "--foreground": "140 15% 10%",
+        "--card": "0 0% 100%",
+        "--card-foreground": "140 15% 10%",
+        "--popover": "0 0% 100%",
+        "--popover-foreground": "140 15% 10%",
+        "--primary": "142 72% 29%",
+        "--primary-foreground": "0 0% 100%",
+        "--secondary": "30 40% 92%",
+        "--secondary-foreground": "30 50% 30%",
+        "--muted": "140 10% 94%",
+        "--muted-foreground": "140 10% 45%",
+        "--accent": "142 50% 96%",
+        "--accent-foreground": "142 72% 29%",
+        "--destructive": "10 80% 55%",
+        "--destructive-foreground": "0 0% 98%",
+        "--border": "140 10% 88%",
+        "--input": "140 10% 88%",
+        "--ring": "142 72% 29%",
+        "--radius": "0.75rem"
+      },
+      "dark": {
+        "--background": "140 20% 4%",
+        "--foreground": "60 10% 90%",
+        "--card": "140 20% 6%",
+        "--card-foreground": "60 10% 90%",
+        "--popover": "140 20% 6%",
+        "--popover-foreground": "60 10% 90%",
+        "--primary": "142 60% 45%",
+        "--primary-foreground": "140 20% 5%",
+        "--secondary": "140 20% 12%",
+        "--secondary-foreground": "60 10% 90%",
+        "--muted": "140 20% 12%",
+        "--muted-foreground": "140 10% 60%",
+        "--accent": "140 20% 15%",
+        "--accent-foreground": "142 60% 45%",
+        "--destructive": "10 70% 50%",
+        "--destructive-foreground": "60 10% 90%",
+        "--border": "140 20% 15%",
+        "--input": "140 20% 15%",
+        "--ring": "142 60% 45%"
+      }
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "heavy": "bg-white/70 backdrop-blur-xl border border-white/40 shadow-sm",
+      "light": "bg-white/40 backdrop-blur-md border border-white/20"
+    },
+    "shadows": {
+      "soft": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "sharp": "shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+    },
+    "borders": {
+      "tech": "border border-primary/20",
+      "organic": "rounded-2xl border border-border/50"
+    }
+  },
+  "layout_strategies": {
+    "marketing": {
+      "grid": "grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8",
+      "container": "container mx-auto px-4 md:px-8 max-w-7xl",
+      "spacing": "py-20 md:py-32"
+    },
+    "dashboard": {
+      "grid": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "card_style": "bg-card text-card-foreground rounded-xl border shadow-sm p-6"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-full font-medium transition-all hover:scale-105 active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-12 px-8 rounded-full font-medium",
+      "outline": "border-2 border-primary text-primary hover:bg-primary/5 h-12 px-8 rounded-full font-medium"
+    },
+    "cards": {
+      "feature": "group relative overflow-hidden rounded-3xl bg-white p-8 shadow-soft hover:shadow-md transition-all duration-300 border border-border/50",
+      "analysis": "relative overflow-hidden rounded-xl bg-card border border-border shadow-sm"
+    },
+    "inputs": {
+      "default": "h-12 rounded-lg border-input bg-background px-4 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "image_urls": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1723580864282-735eecf10c42?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxmYXJtZXIlMjB1c2luZyUyMHRhYmxldCUyMGluJTIwdG9tYXRvJTIwZmllbGR8ZW58MHx8fHwxNzY5NTc4NjY2fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Farmer using tablet in tomato field",
+      "category": "hero_background"
+    },
+    "upload_placeholder": {
+      "url": "https://images.unsplash.com/photo-1680341965294-17b33273e17d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHx0b21hdG8lMjBwbGFudCUyMGhlYWx0aHklMjBsZWF2ZXMlMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc2OTU3ODY2NHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Healthy tomato leaves close up",
+      "category": "ui_element"
+    },
+    "disease_example": {
+      "url": "https://images.unsplash.com/photo-1694100223107-c898e5c117c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHx0b21hdG8lMjBsZWFmJTIwZGlzZWFzZSUyMGNsb3NlJTIwdXB8ZW58MHx8fHwxNzY5NTc4NjY4fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Tomato leaf with disease spots",
+      "category": "analysis_result"
+    },
+    "healthy_fruit": {
+      "url": "https://images.unsplash.com/photo-1752907208867-26ea0ce31cc3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwyfHx0b21hdG8lMjBwbGFudCUyMGhlYWx0aHklMjBsZWF2ZXMlMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc2OTU3ODY2NHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Ripening cherry tomatoes",
+      "category": "feature_card"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_lift": "hover:-translate-y-1 hover:shadow-lg",
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 }
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'Outfit' font for all headings and 'Manrope' for body text.",
+    "Implement the 'Organic Precision' color palette. Note the off-white background.",
+    "For the Analysis Page, use a 'Medical Chart' layout: Plant image on left (sticky), data/diagnosis on right.",
+    "Use the 'Tracing Beam' effect (animated gradient border) for the active scanning state.",
+    "Ensure all buttons are pill-shaped (rounded-full).",
+    "Use the provided image URLs for placeholders and hero sections.",
+    "Do not use generic 'SaaS Blue'. Stick to the Green/Terracotta/Bone palette.",
+    "For the 'Upload' area, make it a large, dashed-border dropzone with the 'upload_placeholder' image as a subtle background with overlay.",
+    "Add 'data-testid' to all interactive elements."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠 etc for icons.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Use 'sonner' for toasts."
+  ]
+}
