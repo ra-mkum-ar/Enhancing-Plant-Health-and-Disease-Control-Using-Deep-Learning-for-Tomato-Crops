@@ -85,19 +85,19 @@ class PlantDefenderAPITester:
     def create_test_image(self):
         """Create a test tomato leaf image in base64 format"""
         # Create a simple test image with some visual features
-        img = Image.new('RGB', (400, 300), color='green')
+        img = Image.new('RGB', (400, 300), color=(34, 139, 34))  # Forest green
         
         # Add some visual features to make it look like a leaf
         from PIL import ImageDraw
         draw = ImageDraw.Draw(img)
         
         # Draw some leaf-like patterns
-        draw.ellipse([50, 50, 350, 250], fill='darkgreen', outline='black')
-        draw.ellipse([100, 80, 300, 220], fill='lightgreen')
+        draw.ellipse([50, 50, 350, 250], fill=(0, 100, 0), outline=(0, 0, 0))  # Dark green with black outline
+        draw.ellipse([100, 80, 300, 220], fill=(144, 238, 144))  # Light green
         
         # Add some spots to simulate disease
-        draw.ellipse([150, 120, 180, 150], fill='brown')
-        draw.ellipse([200, 160, 230, 190], fill='darkbrown')
+        draw.ellipse([150, 120, 180, 150], fill=(165, 42, 42))  # Brown
+        draw.ellipse([200, 160, 230, 190], fill=(101, 67, 33))  # Dark brown
         
         # Convert to base64
         buffer = BytesIO()
